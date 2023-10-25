@@ -1,7 +1,7 @@
 head,
 body,
 footer {
-  background-color: #7b794c;
+  background-color: #e4e3d7;
   font-family: arial, helvetica, sans-serif;
   color: #e4e3d7;
 }
@@ -10,11 +10,31 @@ header {
   size: 20px;
   background-color: #0c4004;
   text-align: center;
+  padding: 2rem;
+  border-radius: 7px;
+  margin: 1rem;
 }
 
 menu {
-  text-align: center;
   background-color: #0c4004;
+  padding: 1rem;
+  border-radius: 7px;
+  margin: 1rem;
+  color: #e4e3d7;
+}
+
+section {
+  background-color: #7b794c;
+  border-radius: 7px;
+  padding: 1rem 5rem 1rem 5rem;
+  margin: 1rem;
+}
+
+footer {
+  background-color: #7b794c;
+  border-radius: 7px;
+  padding: 1rem 5rem 1rem 5rem;
+  margin: 1rem;
 }
 
 p {
@@ -31,4 +51,10 @@ h3 {
 
 a {
   color: #e4e3d7;
+}
+
+#my-pic {
+  border: 5px;
+  border-color: #e4e3d7;
+  border-radius: 50%;
 }
