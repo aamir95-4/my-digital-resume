@@ -1,0 +1,349 @@
+/* General Styling Rules */
+
+head,
+body,
+footer {
+  font-family: arial, helvetica, sans-serif;
+}
+
+header {
+  background-color: #0c4004;
+  text-align: center;
+  padding: 2rem;
+  margin: -10px;
+  position: sticky;
+  top: -5px;
+  color: #e4e3d7;
+}
+
+a {
+  color: #e4e3d7;
+}
+
+.banner {
+  background-color: #7b794c;
+  background-image: url(/Imgs/workspace-laptop.jpg);
+  background-repeat: 0;
+  background-size: cover;
+  height: 300px;
+  padding: 1rem 5rem 1rem 5rem;
+  margin: 0px -10px 0px -10px;
+  color: #e4e3d7;
+  position: relative;
+}
+
+footer {
+  background-color: #0c4004;
+  margin: -20px -10px -10px -10px;
+  position: relative;
+  color: #e4e3d7;
+}
+
+.main {
+  background-color: #7b794c;
+  padding: 1rem 5rem 1rem 5rem;
+  margin: 0px -10px 0px -10px;
+  color: #e4e3d7;
+}
+
+/* 300px Breakpoint */
+
+@media only screen and (min-width: 300px) {
+  header {
+    font-size: 13px;
+  }
+  .my-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -90px;
+  }
+  .banner-text {
+    position: relative;
+    top: 180px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 1rem;
+  }
+
+  .contactform {
+    text-align: left;
+    border-radius: 7px;
+  }
+
+  #email {
+    background-color: #e4e3d7;
+    color: black;
+    border-radius: 3px;
+  }
+
+  #subject {
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 10px;
+    border-radius: 3px;
+  }
+
+  #country {
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 20px;
+    border-radius: 3px;
+  }
+
+  #message {
+    width: 80%;
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 30px;
+    border-radius: 3px;
+  }
+
+  .submit {
+    position: relative;
+    top: 30px;
+    background-color: #e4e3d7;
+    border-radius: 3px;
+  }
+
+  .X {
+    padding: 1rem;
+    border-radius: 7px;
+    position: relative;
+    top: 30px;
+  }
+
+  .git {
+    position: absolute;
+    padding: 1rem;
+    border-radius: 7px;
+    position: relative;
+    top: -65px;
+    left: 60px;
+  }
+}
+
+/* 768px Breakpoint */
+@media only screen and (min-width: 768px) {
+  header {
+    font-size: 16px;
+  }
+  .my-pic {
+    width: 300px;
+    height: auto;
+    border-radius: 7px;
+    position: relative;
+    top: -90px;
+    right: 30%;
+  }
+  .banner-text {
+    position: relative;
+    top: 10px;
+    text-align: right;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 1rem 5rem 1rem 5rem;
+  }
+
+  .contactform {
+    text-align: left;
+    border-radius: 7px;
+  }
+
+  #email {
+    background-color: #e4e3d7;
+    color: black;
+    border-radius: 3px;
+  }
+
+  #subject {
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 10px;
+    border-radius: 3px;
+  }
+
+  #country {
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 20px;
+    border-radius: 3px;
+  }
+
+  #message {
+    width: 80%;
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 30px;
+    border-radius: 3px;
+  }
+
+  .submit {
+    position: relative;
+    top: 30px;
+    background-color: #e4e3d7;
+    border-radius: 3px;
+  }
+
+  .X {
+    position: relative;
+    left: 70%;
+    padding: 1rem;
+    border-radius: 7px;
+  }
+
+  .git {
+    position: relative;
+    left: 80%;
+    padding: 1rem;
+    border-radius: 7px;
+  }
+}
+
+/* 1024px Breakpoint */
+
+@media only screen and (min-width: 1024px) {
+  header {
+    font-size: 16px;
+  }
+  .my-pic {
+    width: 400px;
+    height: auto;
+    border-radius: 7px;
+    position: relative;
+    top: -110px;
+    right: 30%;
+  }
+  .banner-text {
+    position: relative;
+    top: 10px;
+    text-align: right;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 1rem 5rem 1rem 5rem;
+  }
+
+  .contactform {
+    text-align: left;
+    border-radius: 7px;
+  }
+
+  #email {
+    background-color: #e4e3d7;
+    color: black;
+    border-radius: 3px;
+  }
+
+  #subject {
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 10px;
+    border-radius: 3px;
+  }
+
+  #country {
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 20px;
+    border-radius: 3px;
+  }
+
+  #message {
+    width: 80%;
+    background-color: #e4e3d7;
+    color: black;
+    position: relative;
+    top: 30px;
+    border-radius: 3px;
+  }
+
+  .submit {
+    position: relative;
+    top: 30px;
+    background-color: #e4e3d7;
+    border-radius: 3px;
+  }
+
+  .X {
+    position: relative;
+    left: 70%;
+    padding: 1rem;
+    border-radius: 7px;
+  }
+
+  .git {
+    position: relative;
+    left: 80%;
+    padding: 1rem;
+    border-radius: 7px;
+  }
+}
